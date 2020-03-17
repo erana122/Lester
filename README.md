@@ -9,6 +9,7 @@ Scheduling
 import java.util.Scanner;
 public class Main
 {
+
     public Main(){
         Scanner sc = new Scanner(System.in);
         
@@ -50,6 +51,8 @@ public class Main
 import java.util.Scanner;
 public class firstComeFirstServe
 {
+
+
     public void Print(){
          Scanner scanner = new Scanner(System.in);
        
@@ -83,10 +86,12 @@ public class firstComeFirstServe
 }
 
 
+
 import java.util.Scanner;
 public class shortestJobFirst
 {
    public void Print(){
+   
        Scanner scanner = new Scanner(System.in);
        int processNumber[]=new int[10];
        int burstTime[] = new int[10];
@@ -95,7 +100,6 @@ public class shortestJobFirst
        int tempProcessNumber[] = new int[12];//stores process no temporary
        int temp[]=new int[12];//represent Gantt chart
        int num, x, y, z, t, t2;
-
        float averageWaitingTime ,totalWaitingTime = 0;
        System.out.println("Enter Number of Processes(Less than 10): ");
        num = scanner.nextInt();
@@ -162,6 +166,7 @@ import java.util.*;
 public class preEmptiveScheduling {
     public static void Print()
     {
+    
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Number of Process: ");
         int num = scanner.nextInt();
@@ -201,6 +206,7 @@ import java.util.Scanner;
 public class RoundRobin
 {
     public void Print(){
+    
         Scanner scanner = new Scanner(System.in);
         int x, y, z, quantum, sum = 0;
         System.out.println("Enter Number of Process:");
